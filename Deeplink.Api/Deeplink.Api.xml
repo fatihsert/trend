@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Deeplink.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Deeplink.Api.Controllers.DeeplinkController.ConvertToDeeplink(System.String)">
+            <summary>
+            Converts web URLs to deeplink
+            </summary>
+            <param name="url">Web URL</param>
+            <returns>A deeplink</returns>
+            <response code="200">Returns the converted deeplink</response>
+            <response code="400">If the url is null</response>  
+        </member>
+        <member name="M:Deeplink.Api.Controllers.WebUrlController.ConvertToWebUrl(System.String)">
+            <summary>
+            Converts Deeplink to Web Url
+            </summary>
+            <param name="deeplink">Deeplink</param>
+            <returns>A deeplink</returns>
+            <response code="200">Returns the converted Web url</response>
+            <response code="400">If the deeplink is null</response>  
+        </member>
+    </members>
+</doc>
